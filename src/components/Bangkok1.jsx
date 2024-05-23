@@ -1,13 +1,13 @@
 import React from 'react';
-import Bangkok1 from '../images/bangkok1.jpg';
+import bangkokImage from '../images/bangkok1.jpg';
 
-const Bangkok = () => {
+const Bangkok1 = () => {
   return (
     <div>
-      <img src={Bangkok1} alt="Un atardecer en el río" />
-      <p>Bangkok - Río Chao al atardecer</p>
+      <img src={bangkokImage} alt="Un atardecer en el río" />
+      <p>Bangkok - Río Chao</p>
     </div>
   );
 };
 
-export default Bangkok;
+export default Bangkok1;

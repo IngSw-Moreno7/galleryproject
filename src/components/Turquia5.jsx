@@ -1,13 +1,13 @@
 import React from 'react';
-import Turquia5 from '../images/turquia5.jpg';
+import turquia5Image from '../images/turquia5.jpg';
 
-const Turquia = () => {
+const Turquia5 = () => {
   return (
     <div>
-      <img src={Turquia5} alt="Mezquita turca Buyuk Mecidiye" />
+      <img src={turquia5Image} alt="Mezquita turca Buyuk Mecidiye" />
       <p>Turquía - Mezquita Buyuk Mecidiye</p>
     </div>
   );
 };
 
-export default Turquia;
+export default Turquia5;

@@ -1,13 +1,13 @@
 import React from 'react';
-import Espana1 from '../images/espana1.jpg';
+import espanaImage from '../images/espana1.jpg';
 
-const Espana = () => {
+const Espana1 = () => {
   return (
     <div>
-      <img src={Espana1} alt="Segovia, España" />
+      <img src={espanaImage} alt="Segovia, España" />
       <p>España - Segovia</p>
     </div>
   );
 };
 
-export default Espana;
+export default Espana1;

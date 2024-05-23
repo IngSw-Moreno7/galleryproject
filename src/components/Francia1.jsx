@@ -1,13 +1,13 @@
 import React from 'react';
-import Francia1 from '../images/francia1.jpg';
+import franciaImage from '../images/francia1.jpg';
 
-const Francia = () => {
+const Francia1 = () => {
   return (
     <div>
-      <img src={Francia1} alt="Cote d'Azur (Rivera francesa)" />
-      <p>Francia - Cote d'Azur (Rivera francesa)</p>
+      <img src={franciaImage} alt="Rivera francesa" />
+      <p>Francia - Cote d'Azur</p>
     </div>
   );
 };
 
-export default Francia;
+export default Francia1;
