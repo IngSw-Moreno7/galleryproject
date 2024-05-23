@@ -1,13 +1,13 @@
 import React from 'react';
-import Amsterdam1 from '../images/amsterdam1.jpg'; // Importa la imagen con la ruta correcta
+import Amsterdam1 from '../images/amsterdam1.jpg'; 
 
-const Amsterdam1 = () => {
+const Amsterdam = () => {
   return (
     <div>
-      <img src={Aamsterdam1} alt="Calles de amsterdam" /> {/* Muestra la imagen */}
-      <p>Amsterdam - Calles de Amsterdam</p> {/* Pie de imagen con la descripción */}
+      <img src={Amsterdam1} alt="Calles de amsterdam" /> 
+      <p>Amsterdam - Calles de Amsterdam</p> 
     </div>
   );
 };
 
-export default Amsterdam1;
+export default Amsterdam;

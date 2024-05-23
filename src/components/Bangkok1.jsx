@@ -1,7 +1,7 @@
 import React from 'react';
 import Bangkok1 from '../images/bangkok1.jpg';
 
-const Bbangkok = () => {
+const Bangkok = () => {
   return (
     <div>
       <img src={Bangkok1} alt="Un atardecer en el río" />

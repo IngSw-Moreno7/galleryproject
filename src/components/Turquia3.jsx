@@ -1,7 +1,7 @@
 import React from 'react';
 import Turquia3 from '../images/turquia3.jpg';
 
-const Turquia3 = () => {
+const Turquia = () => {
   return (
     <div>
       <img src={Turquia3} alt="Mezquita azul en Estambul" />
@@ -10,4 +10,4 @@ const Turquia3 = () => {
   );
 };
 
-export default Turquia3;
+export default Turquia;

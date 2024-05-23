@@ -1,13 +1,13 @@
 import React from 'react';
-import Munich from '../images/munich1.jpg';
+import Munich1 from '../images/munich1.jpg';
 
-const Munich1 = () => {
+const Munich = () => {
   return (
     <div>
-      <img src={Munich} alt="Vista desde la catedral en Múnich" />
+      <img src={Munich1} alt="Vista desde la catedral en Múnich" />
       <p>Múnich - Vista desde la catedral</p>
     </div>
   );
 };
 
-export default Munich1;
+export default Munich;
