@@ -18,23 +18,26 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <Router>
-      <Navigation />
+      <div className='container'>
+        <h1 id="title" className='text-center my-3'>Galería</h1>
+      </div>
       <Routes>
-        <Route path="/Amsterdam1" element={<Amsterdam1 />} />
-        <Route path="/Bangkok1" element={<Bangkok1 />} />
-        <Route path="/Espana1" element={<Espana1 />} />
-        <Route path="/Francia1" element={<Francia1 />} />
-        <Route path="/Munich1" element={<Munich1 />} />
-        <Route path="/Nuevayork1" element={<Nuevayork1 />} />
-        <Route path="/Seul1" element={<Seul1 />} />
-        <Route path="/Turquia1" element={<Turquia1 />} />
-        <Route path="/Turquia2" element={<Turquia2 />} />
-        <Route path="/Turquia3" element={<Turquia3 />} />
-        <Route path="/Turquia4" element={<Turquia4 />} />
-        <Route path="/Turquia5" element={<Turquia5 />} />
+        <Route path="/amsterdamImage" element={<Amsterdam1 className="image-size" /> }  />
+        <Route path="/bangkokImage" element={<Bangkok1  className="image-size" />} />
+        <Route path="/espanaImage" element={<Espana1 className="image-size"/>} />
+        <Route path="/franciaImage" element={<Francia1 className="image-size" />} />
+        <Route path="/munichImage" element={<Munich1 className="image-size" />} />
+        <Route path="/nuevayorkImage" element={<Nuevayork1 className="image-size" />} />
+        <Route path="/seulImage" element={<Seul1 className="image-size" />} />
+        <Route path="/turquia1Image}" element={<Turquia1 className="image-size" />} />
+        <Route path="/turquia2Image}" element={<Turquia2 className="image-size" />} />
+        <Route path="/turquia3Image}" element={<Turquia3 className="image-size"  />} />
+        <Route path="/turquia4Image}" element={<Turquia4 className="image-size" />} />
+        <Route path="/turquia5Image}" element={<Turquia5 className="image-size"/>} />
       </Routes>
+      <Navigation />
     </Router>
   );
 }
 
-export default App;
+export default App

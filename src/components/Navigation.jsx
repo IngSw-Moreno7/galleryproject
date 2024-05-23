@@ -15,76 +15,76 @@ import Turquia5 from './Turquia5';
 
 const Navigation = () => {
   return (
-    <div>
-    <Link to="/Amsterdam1">
-        <figure>
-            <amsterdam1 />
+    <div className="container mt-4 father">
+      <Link to="/amsterdam1" className="links">
+        <figure className="image-size">
+            <Amsterdam1 />
             <figcaption>Amsterdam</figcaption>
         </figure>
-    </Link>
-    <Link to="/Bangkok1">
-        <figure>
-          <bangkok1 />
+      </Link>
+      <Link to="/bangkok1" className="links">
+        <figure className="image-size">
+          <Bangkok1 />
           <figcaption>Bangkok</figcaption>
         </figure>
-    </Link>
-    <Link to="/Espana1">
-        <figure>
-          <espana1 />
+      </Link>
+      <Link to="/espana1" className="links">
+        <figure className="image-size">
+          <Espana1 />
           <figcaption>España</figcaption>
         </figure>
-    </Link>
-    <Link to="/Francia1">
-        <figure>
-          <francia1 />
+      </Link>
+      <Link to="/francia1" className="links">
+        <figure className="image-size">
+          <Francia1 />
           <figcaption>Francia</figcaption>
         </figure>
-    </Link>
-    <Link to="/Munich1">
-        <figure>
-          <munich1 />
+      </Link>
+      <Link to="/munich1" className="links">
+        <figure className="image-size">
+          <Munich1 />
           <figcaption>Múnich</figcaption>
         </figure>
-    </Link>
-    <Link to="/Nuevayork1">
-        <figure>
-          <nuevayork1 />
+      </Link>
+      <Link to="/nuevayork1" className="links">
+        <figure className="image-size">
+          <Nuevayork1 />
           <figcaption>Nueva York</figcaption>
         </figure>
-    </Link>
-    <Link to="/Seul1">
-        <figure>
-          <seul1 />
+      </Link>
+      <Link to="/seul1" className="links">
+        <figure className="image-size">
+          <Seul1 />
           <figcaption>Seúl</figcaption>
         </figure>
-    </Link>
-    <Link to="/Turquia1">
-        <figure>
-          <turquia1 />
+      </Link>
+      <Link to="/turquia1" className="links">
+        <figure className="image-size">
+          <Turquia1 />
           <figcaption>Turquía 1</figcaption>
         </figure>
-    </Link>
-    <Link to="/Turquia2">
-        <figure>
-          <turquia2 />
+      </Link>
+      <Link to="/turquia2" className="links">
+        <figure className="image-size">
+          <Turquia2 />
           <figcaption>Turquía 2</figcaption>
         </figure>
-    </Link>
-    <Link to="/Turquia3">
-        <figure>
-          <turquia3 />
+      </Link>
+      <Link to="/turquia3" className="links">
+        <figure className="image-size">
+          <Turquia3 />
           <figcaption>Turquía 3</figcaption>
         </figure>
-    </Link>
-    <Link to="/Turquia4">
-        <figure>
-          <turquia4 />
+      </Link>
+      <Link to="/turquia4" className="links">
+        <figure className="image-size">
+          <Turquia4 />
           <figcaption>Turquía 4</figcaption>
         </figure>
-    </Link>
-    <Link to="/Turquia5">
-        <figure>
-          <turquia5 />
+      </Link>
+      <Link to="/turquia5" className="links">
+        <figure className="image-size">
+          <Turquia5 />
           <figcaption>Turquía 5</figcaption>
         </figure>
       </Link>
@@ -92,4 +92,4 @@ const Navigation = () => {
   );
 }
 
-export default Navigation;
+export default Navigation

@@ -3,9 +3,8 @@ import nuevayorkImage from '../images/nuevayork1.jpg';
 
 const Nuevayork1 = () => {
   return (
-    <div>
-      <img src={nuevayorkImage} alt="Ciudad de Nueva York" />
-      <p>Nueva York - Ciudad</p>
+    <div className={'image-container ${className}'}>
+      <img src={nuevayorkImage} alt="Ciudad de Nueva York" className="image" />
     </div>
   );
 };

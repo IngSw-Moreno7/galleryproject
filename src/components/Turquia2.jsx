@@ -3,9 +3,8 @@ import turquia2Image  from '../images/turquia2.jpg';
 
 const Turquia2 = () => {
   return (
-    <div>
-      <img src={turquia2Image} alt="Colina de Camlica en Turquía" />
-      <p>Turquía - Colina de Camlica</p>
+    <div className={'image-container ${className}'}>
+      <img src={turquia2Image} alt="Colina de Camlica" className="image" />
     </div>
   );
 };

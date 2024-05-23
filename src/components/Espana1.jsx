@@ -3,9 +3,8 @@ import espanaImage from '../images/espana1.jpg';
 
 const Espana1 = () => {
   return (
-    <div>
-      <img src={espanaImage} alt="Segovia, España" />
-      <p>España - Segovia</p>
+    <div className={'image-container ${className}'}>
+      <img src={espanaImage} alt="Segovia, España" className="image" />
     </div>
   );
 };
