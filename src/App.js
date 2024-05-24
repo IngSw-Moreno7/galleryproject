@@ -18,7 +18,7 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <Router>
-      <div className='container'>
+      <div className='body'>
         <h1 id="title" className='text-center my-3'>Galería</h1>
       </div>
       <Routes>

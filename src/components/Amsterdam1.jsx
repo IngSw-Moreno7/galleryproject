@@ -1,10 +1,10 @@
 import React from 'react';
 import amsterdamImage from '../images/amsterdam1.jpg'; 
 
-const Amsterdam1 = ( {className}) => {
+const Amsterdam1 = ( {title}) => {
   return (
-    <div className={'image-container ${className}'}>
-      <img src={amsterdamImage} alt="Calles de amsterdam" className="image" /> 
+    <div className={'image-container {className}'}>
+      <img src={amsterdamImage} alt="descripcion lugar" className="image" /> 
     </div>
   );
 };
