@@ -1,7 +1,7 @@
 import React from 'react';
 import amsterdamImage from '../images/amsterdam1.jpg'; 
 
-const Amsterdam1 = ( {title}) => {
+const Amsterdam1 = () => {
   return (
     <div className={'image-container {className}'}>
       <img src={amsterdamImage} alt="descripcion lugar" className="image" /> 

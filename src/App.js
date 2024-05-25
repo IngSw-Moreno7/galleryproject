@@ -29,11 +29,11 @@ function App() {
         <Route path="/munichImage" element={<Munich1 className="image-size" />} />
         <Route path="/nuevayorkImage" element={<Nuevayork1 className="image-size" />} />
         <Route path="/seulImage" element={<Seul1 className="image-size" />} />
-        <Route path="/turquia1Image}" element={<Turquia1 className="image-size" />} />
-        <Route path="/turquia2Image}" element={<Turquia2 className="image-size" />} />
-        <Route path="/turquia3Image}" element={<Turquia3 className="image-size"  />} />
-        <Route path="/turquia4Image}" element={<Turquia4 className="image-size" />} />
-        <Route path="/turquia5Image}" element={<Turquia5 className="image-size"/>} />
+        <Route path="/turquia1Image" element={<Turquia1 className="image-size" />} />
+        <Route path="/turquia2Image" element={<Turquia2 className="image-size" />} />
+        <Route path="/turquia3Image" element={<Turquia3 className="image-size"  />} />
+        <Route path="/turquia4Image" element={<Turquia4 className="image-size" />} />
+        <Route path="/turquia5Image" element={<Turquia5 className="image-size"/>} />
       </Routes>
       <Navigation />
     </Router>

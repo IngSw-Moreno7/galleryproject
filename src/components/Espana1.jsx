@@ -4,10 +4,7 @@ import espanaImage from '../images/espana1.jpg';
 const Espana1 = () => {
   return (
     <div className={'image-container {className}'}>
-      <img src={espanaImage} alt="Segovia, España" className="image" />
-      <div className="caption-container">
-        <p className="image-caption">Segovia, España</p>
-      </div>
+      <img src={espanaImage} alt="descripcion lugar" className="image" />
     </div>
   );
 };

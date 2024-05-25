@@ -42,20 +42,18 @@ figcaption {
   font-weight: bold;
   color: white;
 }
-image-container {
+.image-container {
   position: relative; /* Posición relativa para permitir superposición de elementos */
   overflow: hidden; /* Oculta el desbordamiento de elementos hijos */
   border-radius: 10px; /* Bordes redondeados */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
+
 .image-container img {
   width: 100%; /* Ancho completo de la imagen */
-  height: auto; /* Altura automática para mantener la proporción */
+  height: block; /* Altura automática para mantener la proporción */
   display: block; /* Eliminar espacios no deseados */
   transition: transform 0.3s ease; /* Efecto de transición */
-}
-.image-container:hover img {
-  transform: scale(1.0); /* Efecto de zoom al pasar el mouse */
 }
 
 .image-caption {
@@ -63,7 +61,6 @@ image-container {
   font-size: 1.7rem;
   color: #333; /* Color de texto */
   margin-top: 0.5rem;
-  
 }
 .containerImagespequenas {
   display: flex;
